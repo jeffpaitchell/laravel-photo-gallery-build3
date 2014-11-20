@@ -1,0 +1,80 @@
+.form-group b {
+	display:block;
+	border-bottom:1px solid #000;
+}
+
+.table {
+	border-color:gray;
+	/* Use the line below for creating the gray border */
+	border:1px solid #ddd;
+}
+
+.table li {
+	list-style:none;
+}
+
+.full-photo-size {
+	display:block;
+	width:1280px;
+}
+
+.full-photo-size img {
+	width:1168px;
+	height:800px;
+}
+
+.col-md-9 {
+	float:none;
+	margin:0 auto;
+}
+
+
+
+@media screen and (min-width:1611px) and (max-width:1920px) {
+.panel-body img {height:200px; width:300px;margin-left:8px;}
+}
+
+@media screen and (min-width:1200px) and (max-width:1610px) {
+.panel-body img {height:200px; width:300px;margin-left:8px;}
+}
+
+@media screen and (min-width:993px) and (max-width:1199px) {
+.panel-body img {height:160px; width:250px;}
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+.col-md-4 {width:50%; float:left;}
+.panel-body img {height:160px; width:280px;margin-left: 7px;}
+}
+
+@media screen and (min-width:730px) and (max-width:767px) {
+
+.col-md-4 {width:340px; float:left;}
+.panel-body img {height:160px; width:260px;margin-left: 8px;}
+}
+
+@media screen and (min-width:600px) and (max-width:729px) {
+
+.col-md-4 {width:270px; float:left;}
+.panel-body img {height:130px; width:200px;margin-left: 5px;}
+}
+
+@media screen and (min-width:520px) and (max-width:599px) {
+
+.col-md-4 {width:235px; float:left;}
+.panel-body img {height:110px; width:170px;margin-left: 2px;}
+}
+
+@media screen and (min-width:480px) and (max-width:519px) {
+
+.col-md-4 {width:210px; float:left;}
+.panel-body img {height:100px; width:150px;}
+}
+
+@media screen and (min-width:320px) and (max-width:479px) {
+
+.col-md-4 {width:280px; float:left;}
+.panel-body img {height:100px; width:150px;margin-left:30px;}
+}
+
